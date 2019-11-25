@@ -23,5 +23,5 @@ end
 
 def kesha_maker(array)
   array.eadh do |letter|
-    letter
+    letter[2] = "$"
 end
