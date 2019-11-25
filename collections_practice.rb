@@ -22,8 +22,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.eadh do |letter|
+  array.each do |letter|
     letter[2] = "$"
   end
 end
- kesha_maker("Alan", "Robin", "Samantha")
