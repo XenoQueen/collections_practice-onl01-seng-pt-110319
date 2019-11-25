@@ -14,5 +14,5 @@ end
 
 def swap_elements(array)
   array = []
-  array.swap!{1,2)
+  array.swap!(1,2)
 end
