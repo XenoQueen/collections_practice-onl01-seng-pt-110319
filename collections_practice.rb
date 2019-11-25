@@ -4,5 +4,6 @@ end
 
 def sort_array_desc(array)
   array.sort_by do |sort|
-    
+    -sort
+  end
 end
