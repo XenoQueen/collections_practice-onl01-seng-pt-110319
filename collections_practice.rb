@@ -25,5 +25,5 @@ def kesha_maker(array)
   array.eadh do |letter|
     letter[2] = "$"
   end
-  kesha_maker("Alan", "Robin", "Samantha")
 end
+ kesha_maker("Alan", "Robin", "Samantha")
