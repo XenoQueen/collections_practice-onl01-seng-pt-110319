@@ -22,5 +22,6 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.eadh do |
+  array.eadh do |letter|
+    letter
 end
